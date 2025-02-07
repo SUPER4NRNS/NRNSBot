@@ -1,0 +1,16 @@
+{
+    "视频监控": false,
+    "违禁词监控": true,
+    "知识库": true,
+    "邀请链记录": true,
+    "QFNU教务处监控": true,
+    "QFNU资产处监控": true,
+    "打断复读": false,
+    "关键词回复": true,
+    "kuakua": false,
+    "欢送": false,
+    "欢迎": false,
+    "GithubCard": true,
+    "曲阜师范大学预选课查询": true,
+    "QRCodeInspector": false
+}
