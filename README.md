@@ -18,7 +18,7 @@
 ## 🔧 技术栈
 
 - **核心开发**: Python
-- **消息平台**: [NapCatQQ](https://napneko.github.io/)
+- **消息框架**: [NapCatQQ](https://napneko.github.io/)
 - **机器人 API**: [NapCatQQ API](https://napcat.apifox.cn)
 
 ## 📄 开源协议
