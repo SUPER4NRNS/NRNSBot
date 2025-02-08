@@ -17,7 +17,7 @@
     "CET4": true,
     "GithubCard": true,
     "BilibilliPush": true,
-    "BilibiliPush": false,
+    "BilibiliPush": true,
     "GroupLink": true,
     "QRCodeInspector": true,
     "TitleSelfService": true,
