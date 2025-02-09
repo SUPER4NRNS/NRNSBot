@@ -303,14 +303,19 @@ async def send_like(websocket, user_id, times):
     logging.info(f"[API]已发送好友赞 {user_id} {times} 次。")
 
 
-# 群组踢人
-async def set_group_kick(websocket, group_id, user_id):
+# 群组踢人,拒绝加群请求，新增参数reject_add_request，默认True
+async def set_group_kick(websocket, group_id, user_id, reject_add_request=True):
     kick_msg = {
         "action": "set_group_kick",
-        "params": {"group_id": group_id, "user_id": user_id},
-        "echo": "set_group_kick",
+        "params": {
+            "group_id": group_id,
+            "user_id": user_id,
+            "reject_add_request": reject_add_request,
+        },
+        "echo": f"set_group_kick_{group_id}_{user_id}",
     }
     await websocket.send(json.dumps(kick_msg))
+    logging.info(f"[API]已踢出群 {group_id} 的用户 {user_id}。")
 
 
 # 群组单人禁言
