@@ -246,11 +246,8 @@ async def handle_message_event(websocket, msg):
 # 处理通知事件的逻辑
 async def handle_notice_event(websocket, msg):
 
-    # 处理群通知
+    # 处理通知
     if msg.get("post_type") == "notice":
-        group_id = msg["group_id"]
-        logging.info(f"收到群通知事件, 群ID: {group_id}")
-
         await handle_WelcomeFarewell_group_notice(
             websocket, msg
         )  # 处理入群欢迎和退群欢送的管理
@@ -260,7 +257,10 @@ async def handle_notice_event(websocket, msg):
 
 # 处理请求事件的逻辑
 async def handle_request_event(websocket, msg):
-    await handle_blacklist_request_event(websocket, msg)  # 处理黑名单加群请求事件
+    try:
+        await handle_blacklist_request_event(websocket, msg)  # 处理黑名单加群请求事件
+    except Exception as e:
+        logging.error(f"处理请求事件的逻辑错误: {e}")
 
 
 # 处理元事件的逻辑，每次心跳周期检查一次，用于启动时确保数据目录存在
@@ -286,36 +286,44 @@ async def handle_cron_task(websocket):
 
 # 处理回应消息
 async def handle_response_message(websocket, message):
-    msg = json.loads(message)
-    if msg.get("status") == "ok":
-        await handle_BanWords_response_message(websocket, message)
-        await handle_QFNUClassRegistrationCheck_response_message(websocket, message)
+    try:
+        msg = json.loads(message)
+        if msg.get("status") == "ok":
+            await handle_BanWords_response_message(websocket, message)
+            await handle_QFNUClassRegistrationCheck_response_message(websocket, message)
+    except Exception as e:
+        logging.error(f"处理回应消息的逻辑错误: {e}")
 
 
 # 处理ws消息
 async def handle_message(websocket, message):
+    try:
+        msg = json.loads(message)
 
-    msg = json.loads(message)
+        # 处理回应消息
+        if msg.get("status") == "ok":
+            logging.info(f"收到回应消息：{msg}")
+            await handle_response_message(websocket, message)
 
-    # 处理回应消息
-    if msg.get("status") == "ok":
-        logging.info(f"收到回应消息：{msg}")
-        await handle_response_message(websocket, message)
-
-    # 处理事件
-    if "post_type" in msg:
-        logging.info(f"收到事件消息：{msg}")
-        if msg["post_type"] == "message":
-            # 处理消息事件
-            await handle_message_event(websocket, msg)
-        elif msg["post_type"] == "notice":
-            # 处理通知事件
-            await handle_notice_event(websocket, msg)
-        elif msg["post_type"] == "request":
-            # 处理请求事件
-            await handle_request_event(websocket, msg)
-        elif msg["post_type"] == "meta_event" and msg["meta_event_type"] == "heartbeat":
-            # 处理元事件
-            await handle_meta_event(websocket)
-            # 处理定时任务，每个心跳周期检查一次
-            await handle_cron_task(websocket)
+        # 处理事件
+        if "post_type" in msg:
+            logging.info(f"收到事件消息：{msg}")
+            if msg["post_type"] == "message":
+                # 处理消息事件
+                await handle_message_event(websocket, msg)
+            elif msg["post_type"] == "notice":
+                # 处理通知事件
+                await handle_notice_event(websocket, msg)
+            elif msg["post_type"] == "request":
+                # 处理请求事件
+                await handle_request_event(websocket, msg)
+            elif (
+                msg["post_type"] == "meta_event"
+                and msg["meta_event_type"] == "heartbeat"
+            ):
+                # 处理元事件
+                await handle_meta_event(websocket)
+                # 处理定时任务，每个心跳周期检查一次
+                await handle_cron_task(websocket)
+    except Exception as e:
+        logging.error(f"处理ws消息的逻辑错误: {e}")
