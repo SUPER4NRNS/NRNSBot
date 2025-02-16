@@ -15,7 +15,6 @@ from app.scripts.ImageGenerate.main import handle_events as handle_ImageGenerate
 from app.scripts.SendAll.main import handle_events as handle_SendAll_events
 from app.scripts.GroupManager.main import handle_events as handle_GroupManager_events
 from app.scripts.Crypto.main import handle_events as handle_Crypto_events
-from app.scripts.AI.main import handle_events as handle_AI_events
 from app.scripts.QASystem.main import handle_events as handle_QASystem_events
 from app.scripts.ClassTable.main import handle_events as handle_ClassTable_events
 from app.scripts.KeywordsReply.main import handle_events as handle_KeywordsReply_events
@@ -28,9 +27,7 @@ from app.scripts.BanWords.main import handle_events as handle_BanWords_events
 from app.scripts.QFNUTracker.main import handle_events as handle_QFNUTracker_events
 from app.scripts.LockGroupCard.main import handle_events as handle_LockGroupCard_events
 from app.scripts.SoftBan.main import handle_events as handle_SoftBan_events
-from app.scripts.CollectTheSun.main import handle_events as handle_CollectTheSun_events
 from app.scripts.Custom.main import handle_events as handle_Custom_events
-from app.scripts.WordCloud.main import handle_events as handle_WordCloud_events
 from app.scripts.TimeAwareGreetings.main import (
     handle_events as handle_TimeAwareGreetings_events,
 )
@@ -94,7 +91,6 @@ async def handle_message(websocket, message):
         await handle_SendAll_events(websocket, msg)
         await handle_GroupManager_events(websocket, msg)
         await handle_Crypto_events(websocket, msg)
-        await handle_AI_events(websocket, msg)
         await handle_QASystem_events(websocket, msg)
         await handle_ClassTable_events(websocket, msg)
         await handle_KeywordsReply_events(websocket, msg)
@@ -105,9 +101,7 @@ async def handle_message(websocket, message):
         await handle_QFNUTracker_events(websocket, msg)
         await handle_LockGroupCard_events(websocket, msg)
         await handle_SoftBan_events(websocket, msg)
-        await handle_CollectTheSun_events(websocket, msg)
         await handle_Custom_events(websocket, msg)
-        await handle_WordCloud_events(websocket, msg)
         await handle_TimeAwareGreetings_events(websocket, msg)
         await handle_KuaKuaAI_events(websocket, msg)
         await handle_PokePal_events(websocket, msg)
