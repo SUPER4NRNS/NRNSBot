@@ -149,3 +149,7 @@
 	path = app/scripts/GithubCard
 	url = git@github.com:W1ndysBot/GithubCard.git
 	branch = main
+[submodule "app/scripts/GetFreeClassrooms"]
+	path = app/scripts/GetFreeClassrooms
+	url = git@github.com:W1ndysBot/GetFreeClassrooms.git
+	branch = main
