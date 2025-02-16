@@ -61,10 +61,10 @@ from app.switch import handle_events as handle_Switch_events
 # 处理回应消息
 async def handle_response_message(websocket, message):
     try:
-        msg = json.loads(message)
+        msg = json.loads(message)  # 将字符串消息解析为字典
         if msg.get("status") == "ok":
-            await handle_BanWords_events(websocket, message)
-            await handle_QFNUClassRegistrationCheck_events(websocket, message)
+            await handle_BanWords_events(websocket, msg)
+            await handle_QFNUClassRegistrationCheck_events(websocket, msg)
     except Exception as e:
         logging.error(f"处理回应消息的逻辑错误: {e}")
 
