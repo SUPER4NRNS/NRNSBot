@@ -5,8 +5,6 @@ import json
 import logging
 import os
 import sys
-import asyncio
-from datetime import datetime
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -52,6 +50,7 @@ from app.scripts.TitleSelfService.main import (
     handle_events as handle_TitleSelfService_events,
 )
 from app.scripts.MuteWheel.main import handle_events as handle_MuteWheel_events
+from app.scripts.BanWords2.main import handle_events as handle_BanWords2_events
 
 # 系统模块
 from app.system import handle_events as handle_System_events
@@ -87,6 +86,7 @@ async def handle_message(websocket, message):
         await handle_Switch_events(websocket, msg)
 
         # 功能模块事件处理
+        await handle_BanWords2_events(websocket, msg)
         await handle_ImageGenerate_events(websocket, msg)
         await handle_SendAll_events(websocket, msg)
         await handle_GroupManager_events(websocket, msg)
