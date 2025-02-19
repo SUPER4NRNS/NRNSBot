@@ -50,7 +50,7 @@ from app.scripts.TitleSelfService.main import (
 )
 from app.scripts.MuteWheel.main import handle_events as handle_MuteWheel_events
 from app.scripts.BanWords2.main import handle_events as handle_BanWords2_events
-
+from app.scripts.LLM.main import handle_events as handle_LLM_events
 # 系统模块
 from app.system import handle_events as handle_System_events
 from app.switch import handle_events as handle_Switch_events
@@ -113,6 +113,7 @@ async def handle_message(websocket, message):
         await handle_QRCodeInspector_events(websocket, msg)
         await handle_TitleSelfService_events(websocket, msg)
         await handle_MuteWheel_events(websocket, msg)
+        await handle_LLM_events(websocket, msg)
 
     except Exception as e:
         logging.error(f"处理ws消息的逻辑错误: {e}")

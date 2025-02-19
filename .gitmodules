@@ -133,3 +133,7 @@
 	path = app/scripts/QFNUGetFreeClassrooms
 	url = git@github.com:W1ndysBot/QFNUGetFreeClassrooms.git
 	branch = main
+[submodule "app/scripts/LLM"]
+	path = app/scripts/LLM
+	url = git@github.com:W1ndysBot/LLM.git
+	branch = main
