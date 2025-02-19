@@ -21,7 +21,6 @@ from app.scripts.WelcomeFarewell.main import (
     handle_events as handle_WelcomeFarewell_events,
 )
 from app.scripts.InviteChain.main import handle_events as handle_InviteChain_events
-from app.scripts.BanWords.main import handle_events as handle_BanWords_events
 from app.scripts.QFNUTracker.main import handle_events as handle_QFNUTracker_events
 from app.scripts.LockGroupCard.main import handle_events as handle_LockGroupCard_events
 from app.scripts.SoftBan.main import handle_events as handle_SoftBan_events
@@ -62,7 +61,6 @@ async def handle_response_message(websocket, message):
     try:
         msg = json.loads(message)  # 将字符串消息解析为字典
         if msg.get("status") == "ok":
-            await handle_BanWords_events(websocket, msg)
             await handle_QFNUClassRegistrationCheck_events(websocket, msg)
     except Exception as e:
         logging.error(f"处理回应消息的逻辑错误: {e}")
@@ -97,7 +95,6 @@ async def handle_message(websocket, message):
         await handle_Blacklist_events(websocket, msg)
         await handle_WelcomeFarewell_events(websocket, msg)
         await handle_InviteChain_events(websocket, msg)
-        await handle_BanWords_events(websocket, msg)
         await handle_QFNUTracker_events(websocket, msg)
         await handle_LockGroupCard_events(websocket, msg)
         await handle_SoftBan_events(websocket, msg)
