@@ -22,10 +22,6 @@
 	path = app/scripts/Example
 	url = git@github.com:W1ndysBot/Example
 	branch = main
-[submodule "app/scripts/BanWords"]
-	path = app/scripts/BanWords
-	url = git@github.com:W1ndysBot/BanWords
-	branch = main
 [submodule "app/scripts/InviteChain"]
 	path = app/scripts/InviteChain
 	url = git@github.com:W1ndysBot/InviteChain
