@@ -57,16 +57,6 @@ from app.system import handle_events as handle_System_events
 from app.switch import handle_events as handle_Switch_events
 
 
-# 处理回应消息
-async def handle_response_message(websocket, message):
-    try:
-        msg = json.loads(message)  # 将字符串消息解析为字典
-        if msg.get("status") == "ok":
-            await handle_QFNUClassRegistrationCheck_events(websocket, msg)
-    except Exception as e:
-        logging.error(f"处理回应消息的逻辑错误: {e}")
-
-
 # 处理ws消息
 async def handle_message(websocket, message):
     try:
