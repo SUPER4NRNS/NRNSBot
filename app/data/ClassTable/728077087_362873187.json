@@ -75,7 +75,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -85,7 +85,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -95,7 +95,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -219,7 +219,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -229,7 +229,7 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -257,6 +257,28 @@
                     "teacher": "夏玉鑫",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -315,7 +337,7 @@
             ],
             "9": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -325,7 +347,7 @@
             ],
             "10": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -335,7 +357,7 @@
             ],
             "11": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -397,7 +419,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -407,7 +429,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -417,7 +439,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -499,7 +521,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -509,7 +531,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -519,7 +541,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -568,6 +590,26 @@
                     "startTime": "15:00",
                     "endTime": "15:50"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         },
         "1": {
@@ -613,7 +655,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -623,12 +665,34 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
                     "startTime": "20:00",
                     "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -687,7 +751,7 @@
             ],
             "9": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -697,7 +761,7 @@
             ],
             "10": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -707,7 +771,7 @@
             ],
             "11": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -769,7 +833,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -779,7 +843,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -789,7 +853,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -871,7 +935,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -881,7 +945,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -891,7 +955,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -943,7 +1007,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -953,7 +1017,7 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -981,6 +1045,48 @@
                     "teacher": "郗来军",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -1039,7 +1145,7 @@
             ],
             "9": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1049,7 +1155,7 @@
             ],
             "10": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1059,7 +1165,7 @@
             ],
             "11": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1121,7 +1227,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1131,7 +1237,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1141,7 +1247,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1223,7 +1329,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -1233,7 +1339,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -1243,7 +1349,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -1292,6 +1398,26 @@
                     "startTime": "15:00",
                     "endTime": "15:50"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         },
         "1": {
@@ -1337,7 +1463,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -1347,12 +1473,34 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
                     "startTime": "20:00",
                     "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -1411,7 +1559,7 @@
             ],
             "9": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1421,7 +1569,7 @@
             ],
             "10": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1431,7 +1579,7 @@
             ],
             "11": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1493,7 +1641,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1503,7 +1651,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1513,7 +1661,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1595,7 +1743,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -1605,7 +1753,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -1615,7 +1763,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -1667,7 +1815,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -1677,7 +1825,7 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -1705,6 +1853,48 @@
                     "teacher": "吕超",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -1763,7 +1953,7 @@
             ],
             "9": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1773,7 +1963,7 @@
             ],
             "10": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1783,7 +1973,7 @@
             ],
             "11": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -1845,7 +2035,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1855,7 +2045,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1865,7 +2055,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -1947,7 +2137,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -1957,7 +2147,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -1967,7 +2157,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -2016,6 +2206,26 @@
                     "startTime": "15:00",
                     "endTime": "15:50"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         },
         "1": {
@@ -2061,7 +2271,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -2071,12 +2281,34 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
                     "startTime": "20:00",
                     "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -2135,7 +2367,7 @@
             ],
             "9": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -2145,7 +2377,7 @@
             ],
             "10": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -2155,7 +2387,7 @@
             ],
             "11": [
                 {
-                    "courseId": 12,
+                    "courseId": 13,
                     "courseName": "有机化学(分组03)",
                     "room": "实验中心D区D213、D215",
                     "teacher": "孙鹏",
@@ -2217,7 +2449,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2227,7 +2459,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2237,7 +2469,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2319,7 +2551,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -2329,7 +2561,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -2339,7 +2571,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -2391,7 +2623,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -2401,7 +2633,7 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -2429,6 +2661,48 @@
                     "teacher": "赵文彬",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -2443,6 +2717,14 @@
                     "teacher": "谢广龙",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -2451,6 +2733,14 @@
                     "courseName": "脊椎动物学",
                     "room": "生物楼102",
                     "teacher": "谢广龙",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -2539,7 +2829,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2549,7 +2839,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2559,7 +2849,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2641,7 +2931,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -2651,7 +2941,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -2661,7 +2951,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -2710,6 +3000,26 @@
                     "startTime": "15:00",
                     "endTime": "15:50"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         },
         "1": {
@@ -2755,7 +3065,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -2765,12 +3075,34 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
                     "startTime": "20:00",
                     "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -2785,6 +3117,14 @@
                     "teacher": "谢广龙",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -2793,6 +3133,14 @@
                     "courseName": "脊椎动物学",
                     "room": "生物楼102",
                     "teacher": "谢广龙",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -2881,7 +3229,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2891,7 +3239,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2901,7 +3249,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -2983,7 +3331,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -2993,7 +3341,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3003,7 +3351,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3055,7 +3403,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -3065,7 +3413,7 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -3094,6 +3442,48 @@
                     "startTime": "15:00",
                     "endTime": "15:50"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
             ]
         }
     },
@@ -3107,6 +3497,14 @@
                     "teacher": "李冉",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -3115,6 +3513,14 @@
                     "courseName": "脊椎动物学",
                     "room": "生物楼102",
                     "teacher": "李冉",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -3223,7 +3629,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3233,7 +3639,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3243,7 +3649,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3325,7 +3731,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3335,7 +3741,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3345,7 +3751,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3374,6 +3780,26 @@
                     "startTime": "11:10",
                     "endTime": "12:00"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         },
         "1": {
@@ -3419,7 +3845,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -3429,12 +3855,34 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
                     "startTime": "20:00",
                     "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -3449,6 +3897,14 @@
                     "teacher": "李冉",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -3457,6 +3913,14 @@
                     "courseName": "脊椎动物学",
                     "room": "生物楼102",
                     "teacher": "李冉",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -3565,7 +4029,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3575,7 +4039,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3585,7 +4049,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3667,7 +4131,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3677,7 +4141,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3687,7 +4151,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3739,7 +4203,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -3749,10 +4213,54 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ]
+        },
+        "5": {
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "20:00",
                     "endTime": "20:50"
                 }
@@ -3769,6 +4277,14 @@
                     "teacher": "李冉",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -3777,6 +4293,14 @@
                     "courseName": "脊椎动物学",
                     "room": "生物楼102",
                     "teacher": "李冉",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -3885,7 +4409,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3895,7 +4419,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3905,7 +4429,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -3987,7 +4511,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -3997,7 +4521,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -4007,7 +4531,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -4036,6 +4560,26 @@
                     "startTime": "11:10",
                     "endTime": "12:00"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         },
         "1": {
@@ -4081,7 +4625,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -4091,12 +4635,34 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
                     "startTime": "20:00",
                     "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -4111,6 +4677,14 @@
                     "teacher": "李冉",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -4119,6 +4693,14 @@
                     "courseName": "脊椎动物学",
                     "room": "生物楼102",
                     "teacher": "李冉",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -4227,7 +4809,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4237,7 +4819,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4247,7 +4829,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4329,7 +4911,7 @@
             ],
             "9": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -4339,7 +4921,7 @@
             ],
             "10": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -4349,7 +4931,7 @@
             ],
             "11": [
                 {
-                    "courseId": 14,
+                    "courseId": 15,
                     "courseName": "脊椎动物学实验1(分组03)",
                     "room": "实验中心D区D113、D115",
                     "teacher": "李冉",
@@ -4401,7 +4983,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -4411,10 +4993,54 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ]
+        },
+        "5": {
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "20:00",
                     "endTime": "20:50"
                 }
@@ -4431,6 +5057,14 @@
                     "teacher": "李冉",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -4439,6 +5073,14 @@
                     "courseName": "脊椎动物学",
                     "room": "生物楼102",
                     "teacher": "李冉",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -4497,7 +5139,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4507,7 +5149,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4517,7 +5159,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4535,6 +5177,14 @@
                     "teacher": "韦浩",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -4543,6 +5193,14 @@
                     "courseName": "植物学2",
                     "room": "综合教学楼506",
                     "teacher": "韦浩",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -4618,6 +5276,26 @@
                     "startTime": "11:10",
                     "endTime": "12:00"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         },
         "1": {
@@ -4663,7 +5341,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -4673,12 +5351,34 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
                     "startTime": "20:00",
                     "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -4693,6 +5393,14 @@
                     "teacher": "李冉",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -4701,6 +5409,14 @@
                     "courseName": "脊椎动物学",
                     "room": "生物楼102",
                     "teacher": "李冉",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -4759,7 +5475,7 @@
             ],
             "9": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4769,7 +5485,7 @@
             ],
             "10": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4779,7 +5495,7 @@
             ],
             "11": [
                 {
-                    "courseId": 13,
+                    "courseId": 14,
                     "courseName": "中国近现代史纲要",
                     "room": "综合教学楼501",
                     "teacher": "马卫花",
@@ -4797,6 +5513,14 @@
                     "teacher": "韦浩",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -4805,6 +5529,14 @@
                     "courseName": "植物学2",
                     "room": "综合教学楼506",
                     "teacher": "韦浩",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -4903,7 +5635,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -4913,10 +5645,54 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ]
+        },
+        "5": {
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "20:00",
                     "endTime": "20:50"
                 }
@@ -4933,6 +5709,14 @@
                     "teacher": "张燕",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -4941,6 +5725,14 @@
                     "courseName": "大学英语2（普通）(分组44)",
                     "room": "生物楼312",
                     "teacher": "张燕",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -4965,6 +5757,26 @@
                     "teacher": "刘影",
                     "startTime": "11:10",
                     "endTime": "12:00"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
                 }
             ]
         },
@@ -5011,7 +5823,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -5021,7 +5833,7 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -5070,6 +5882,26 @@
                     "startTime": "17:00",
                     "endTime": "17:50"
                 }
+            ],
+            "1": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
+                }
+            ],
+            "2": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                }
             ]
         },
         "2": {
@@ -5089,6 +5921,48 @@
                     "courseName": "儒学与中华文化",
                     "room": "综合教学楼106",
                     "teacher": "张韶宇",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "1": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
+                }
+            ],
+            "2": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
                     "startTime": "17:00",
                     "endTime": "17:50"
                 }
@@ -5105,6 +5979,14 @@
                     "teacher": "张燕",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -5113,6 +5995,14 @@
                     "courseName": "大学英语2（普通）(分组44)",
                     "room": "生物楼312",
                     "teacher": "张燕",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -5161,7 +6051,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -5171,7 +6061,7 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -5220,6 +6110,26 @@
                     "startTime": "17:00",
                     "endTime": "17:50"
                 }
+            ],
+            "1": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
+                }
+            ],
+            "2": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                }
             ]
         },
         "2": {
@@ -5242,6 +6152,70 @@
                     "startTime": "17:00",
                     "endTime": "17:50"
                 }
+            ],
+            "1": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
+                }
+            ],
+            "2": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ]
+        },
+        "5": {
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         }
     },
@@ -5255,6 +6229,14 @@
                     "teacher": "张燕",
                     "startTime": "08:00",
                     "endTime": "08:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
                 }
             ],
             "2": [
@@ -5263,6 +6245,14 @@
                     "courseName": "大学英语2（普通）(分组44)",
                     "room": "生物楼312",
                     "teacher": "张燕",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                },
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
                     "startTime": "09:00",
                     "endTime": "09:50"
                 }
@@ -5288,6 +6278,26 @@
                     "startTime": "11:10",
                     "endTime": "12:00"
                 }
+            ],
+            "9": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ],
+            "10": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "20:00",
+                    "endTime": "20:50"
+                }
             ]
         },
         "1": {
@@ -5333,7 +6343,7 @@
             ],
             "9": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -5343,7 +6353,7 @@
             ],
             "10": [
                 {
-                    "courseId": 11,
+                    "courseId": 12,
                     "courseName": "全球视野下法语国家社会与文化",
                     "room": "综合教学楼205",
                     "teacher": "李冉",
@@ -5392,6 +6402,26 @@
                     "startTime": "17:00",
                     "endTime": "17:50"
                 }
+            ],
+            "1": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
+                }
+            ],
+            "2": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                }
             ]
         },
         "2": {
@@ -5411,6 +6441,48 @@
                     "courseName": "儒学与中华文化",
                     "room": "综合教学楼106",
                     "teacher": "张韶宇",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "1": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "08:00",
+                    "endTime": "08:50"
+                }
+            ],
+            "2": [
+                {
+                    "courseId": 16,
+                    "courseName": "晚自习",
+                    "room": "",
+                    "teacher": "",
+                    "startTime": "09:00",
+                    "endTime": "09:50"
+                }
+            ]
+        },
+        "7": {
+            "7": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 11,
+                    "courseName": "植物组织培养",
+                    "room": "生物楼118",
+                    "teacher": "韦浩",
                     "startTime": "17:00",
                     "endTime": "17:50"
                 }
