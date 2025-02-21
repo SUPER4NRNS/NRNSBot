@@ -14,7 +14,7 @@ sys.path.append(
 from app.config import *
 from app.api import *
 from app.switch import load_switch, save_switch
-from app.scripts.LLM.main import send_dify_request, handle_dify_response
+from app.scripts.LLM.LLM import send_dify_request, handle_dify_response
 
 # 数据存储路径，实际开发时，请将LLM替换为具体的数据存放路径
 DATA_DIR = os.path.join(
@@ -87,7 +87,7 @@ async def handle_group_message(websocket, msg):
         # 检查功能是否开启
         if load_function_status(group_id):
             # 其他群消息处理逻辑
-            if raw_message.startswith("卷卷") or f"[CQ:at,qq={self_id}]" in raw_message:
+            if raw_message.startswith("fufu") or f"[CQ:at,qq={self_id}]" in raw_message:
                 await send_group_msg(
                     websocket,
                     group_id,
