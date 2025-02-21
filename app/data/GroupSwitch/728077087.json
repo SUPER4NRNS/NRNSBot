@@ -21,5 +21,6 @@
     "GroupLink": true,
     "QRCodeInspector": true,
     "TitleSelfService": true,
-    "MuteWheel": true
+    "MuteWheel": true,
+    "LLM": true
 }
