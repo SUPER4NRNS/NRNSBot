@@ -51,6 +51,7 @@ from app.scripts.TitleSelfService.main import (
 from app.scripts.MuteWheel.main import handle_events as handle_MuteWheel_events
 from app.scripts.BanWords2.main import handle_events as handle_BanWords2_events
 from app.scripts.LLM.main import handle_events as handle_LLM_events
+
 # 系统模块
 from app.system import handle_events as handle_System_events
 from app.switch import handle_events as handle_Switch_events
@@ -71,13 +72,7 @@ async def handle_message(websocket, message):
     try:
         msg = json.loads(message)
 
-        # 处理回应消息
-        if msg.get("status") == "ok":
-            logging.info(f"收到回应消息：{msg}")
-            await handle_response_message(websocket, message)
-            return
-
-        logging.info(f"收到事件消息：{msg}")
+        logging.info(f"收到ws事件：{msg}")
 
         # 系统基础功能
         await handle_System_events(websocket, msg)
