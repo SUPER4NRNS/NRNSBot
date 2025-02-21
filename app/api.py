@@ -625,17 +625,6 @@ async def get_group_member_list(websocket, group_id, no_cache=False):
         return []
 
 
-# 获取群成员列表返回QQ号数组
-async def get_group_member_list_qq(websocket, group_id):
-    try:
-        group_member_list = await get_group_member_list(websocket, group_id)
-        logging.info(f"[API]已获取群 {group_id} 的成员列表QQ号数组。")
-        return [member.get("user_id") for member in group_member_list]
-    except Exception as e:
-        logging.error(f"[API]获取群成员QQ号列表失败: {e}")
-        return []
-
-
 # 获取群荣誉信息
 async def get_group_honor_info(websocket, group_id, type):
     try:
