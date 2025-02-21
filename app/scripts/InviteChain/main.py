@@ -73,7 +73,7 @@ def get_invited_users(group_id, target_user_id):
         if inviter["operator_id"] == target_user_id
     ]
 
-    # 去重
+    # 去 重
     invited_users = set(invited_users)
 
     if invited_users:
