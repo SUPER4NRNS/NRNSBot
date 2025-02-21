@@ -62,7 +62,11 @@ async def send_private_msg_no_cq(websocket, user_id, content, auto_escape=True):
     try:
         message = {
             "action": "send_private_msg",
-            "params": {"user_id": user_id, "message": content, "auto_escape": auto_escape},
+            "params": {
+                "user_id": user_id,
+                "message": content,
+                "auto_escape": auto_escape,
+            },
             "echo": "send_private_msg_no_cq",
         }
         await websocket.send(json.dumps(message))
@@ -105,10 +109,10 @@ async def send_group_msg_no_cq(websocket, group_id, content, auto_escape=True):
         message = {
             "action": "send_group_msg",
             "params": {
-            "group_id": group_id,
-            "message": content,
-            "auto_escape": auto_escape,
-        },
+                "group_id": group_id,
+                "message": content,
+                "auto_escape": auto_escape,
+            },
             "echo": "send_group_msg_no_cq",
         }
         await websocket.send(json.dumps(message))
@@ -126,13 +130,7 @@ async def send_ArkSharePeer_group(websocket, user_id, group_id):
             "echo": "send_ArkSharePeer_group",
         }
         await websocket.send(json.dumps(message))
-        while True:
-            response = await websocket.recv()
-            response_data = json.loads(response)
-            if response_data.get("echo") == "send_ArkSharePeer_group":
-                data = response_data.get("data", {}).get("arkMsg")
-                await send_json_msg_group(websocket, group_id, data)
-                break
+        logging.info(f"[API]已发送推荐好友到群 {group_id}")
     except Exception as e:
         logging.error(f"[API]发送推荐好友失败: {e}")
 
@@ -146,13 +144,7 @@ async def send_ArkShareGroupEx_group(websocket, group_id, target_group_id):
             "echo": "send_ArkShareGroupEx_group",
         }
         await websocket.send(json.dumps(message))
-        while True:
-            response = await websocket.recv()
-            response_data = json.loads(response)
-            if response_data.get("echo") == "send_ArkShareGroupEx_group":
-                data = response_data.get("data")
-                await send_json_msg_group(websocket, target_group_id, data)
-                break
+        logging.info(f"[API]已发送加群卡片到群 {target_group_id}")
     except Exception as e:
         logging.error(f"[API]发送加群卡片失败: {e}")
 
@@ -166,13 +158,7 @@ async def send_ArkShareGroupEx_private(websocket, user_id):
             "echo": "send_ArkShareGroupEx_private",
         }
         await websocket.send(json.dumps(message))
-        while True:
-            response = await websocket.recv()
-            response_data = json.loads(response)
-            if response_data.get("echo") == "send_ArkShareGroupEx_private":
-                data = response_data.get("data")
-                await send_json_msg_private(websocket, user_id, data)
-                break
+        logging.info(f"[API]已发送加群卡片到私聊 {user_id}")
     except Exception as e:
         logging.error(f"[API]发送加群卡片失败: {e}")
 
@@ -186,13 +172,7 @@ async def send_ArkSharePeer_private(websocket, user_id):
             "echo": "send_ArkSharePeer_private",
         }
         await websocket.send(json.dumps(message))
-        while True:
-            response = await websocket.recv()
-            response_data = json.loads(response)
-            if response_data.get("echo") == "send_ArkSharePeer_private":
-                data = response_data.get("data", {}).get("arkMsg")
-                await send_json_msg_private(websocket, user_id, data)
-                break
+        logging.info(f"[API]已发送推荐好友到私聊 {user_id}")
     except Exception as e:
         logging.error(f"[API]发送推荐好友失败: {e}")
 
@@ -352,7 +332,11 @@ async def set_group_anonymous_ban(websocket, group_id, anonymous_flag, duration)
     try:
         anonymous_ban_msg = {
             "action": "set_group_anonymous_ban",
-            "params": {"group_id": group_id, "flag": anonymous_flag, "duration": duration},
+            "params": {
+                "group_id": group_id,
+                "flag": anonymous_flag,
+                "duration": duration,
+            },
             "echo": "set_group_anonymous_ban",
         }
         await websocket.send(json.dumps(anonymous_ban_msg))
@@ -497,7 +481,12 @@ async def set_group_add_request(websocket, flag, type, approve, reason):
     try:
         request_msg = {
             "action": "set_group_add_request",
-            "params": {"flag": flag, "type": type, "approve": approve, "reason": reason},
+            "params": {
+                "flag": flag,
+                "type": type,
+                "approve": approve,
+                "reason": reason,
+            },
             "echo": "set_group_add_request",
         }
         await websocket.send(json.dumps(request_msg))
@@ -543,12 +532,7 @@ async def get_stranger_info(websocket, user_id, no_cache=False):
             "echo": "get_stranger_info",
         }
         await websocket.send(json.dumps(stranger_info_msg))
-        while True:
-            response = await websocket.recv()
-            response_data = json.loads(response)
-            if response_data.get("echo") == "get_stranger_info":
-                logging.info(f"[API]已获取陌生人 {user_id} 信息。")
-                return response_data.get("data", {})
+        logging.info(f"[API]已获取陌生人 {user_id} 信息。")
     except Exception as e:
         logging.error(f"获取陌生人信息失败: {e}")
         return {}
@@ -602,15 +586,10 @@ async def get_group_member_info(websocket, group_id, user_id, no_cache=False):
         group_member_info_msg = {
             "action": "get_group_member_info",
             "params": {"group_id": group_id, "user_id": user_id, "no_cache": no_cache},
-            "echo": "get_group_member_info",
+            "echo": f"get_group_member_info_{group_id}_{user_id}",
         }
         await websocket.send(json.dumps(group_member_info_msg))
-        while True:
-            response = await websocket.recv()
-            response_data = json.loads(response)
-            if response_data.get("echo") == "get_group_member_info":
-                logging.info(f"[API]已获取群 {group_id} 的用户 {user_id} 信息。")
-                return response_data
+        logging.info(f"[API]已获取群 {group_id} 的用户 {user_id} 信息。")
     except Exception as e:
         logging.error(f"[API]获取群成员信息失败: {e}")
         return None
@@ -640,12 +619,7 @@ async def get_group_member_list(websocket, group_id, no_cache=False):
             "echo": "get_group_member_list",
         }
         await websocket.send(json.dumps(group_member_list_msg))
-        while True:
-            response = await websocket.recv()
-            response_data = json.loads(response)
-            if response_data.get("echo") == "get_group_member_list":
-                logging.info(f"[API]已获取群 {group_id} 的成员列表。")
-                return response_data.get("data", [])
+        logging.info(f"[API]已获取群 {group_id} 的成员列表。")
     except Exception as e:
         logging.error(f"[API]获取群成员列表失败: {e}")
         return []
