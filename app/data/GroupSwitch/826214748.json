@@ -1,1 +1,10 @@
-{}
+{
+    "邀请链记录": true,
+    "知识库": true,
+    "QFNU教务处监控": true,
+    "QFNU资产处监控": false,
+    "欢迎欢送": true,
+    "群名片锁": true,
+    "违禁词监控": true,
+    "打断复读": false
+}

@@ -1,15 +1,11 @@
 {
-    "视频监控": false,
+    "视频监控": true,
     "违禁词监控": true,
+    "欢迎欢送": true,
     "知识库": true,
     "邀请链记录": true,
+    "QFNU资产处公告监控": true,
+    "QFNU教务处公告监控": true,
     "QFNU教务处监控": true,
-    "QFNU资产处监控": false,
-    "关键词回复": true,
-    "欢迎": true,
-    "QFNUBustExamClassroomFind": true,
-    "欢送": true,
-    "曲阜师范大学预选课查询": true,
-    "GroupLink": true,
-    "TitleSelfService": false
+    "QFNU资产处监控": true
 }
