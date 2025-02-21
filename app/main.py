@@ -25,7 +25,7 @@ async def main():
                 )
                 main.notified = True
 
-            await asyncio.sleep(1)  # 每秒重试一次
+            await asyncio.sleep(1)  # 每秒   重试一次
 
 
 if __name__ == "__main__":
