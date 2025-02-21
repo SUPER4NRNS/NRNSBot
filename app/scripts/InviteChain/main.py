@@ -20,7 +20,7 @@ from app.scripts.BlacklistSystem.main import is_blacklisted
 # 全局变量声明
 operator_role_map = {}
 
-# 数据存储路 径，实际开发时，请将InviteChain替换为具体的数据存放路径
+# 数据存储路径，实际开发时，请将InviteChain替换为具体的数据存放路径
 DATA_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
     "data",
