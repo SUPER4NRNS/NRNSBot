@@ -93,7 +93,7 @@ async def handle_group_message(websocket, msg):
                     group_id,
                     [
                         {"type": "reply", "data": {"id": message_id}},
-                        {"type": "text", "data": {"text": "💬💬💬正在思考中..."}},
+                        {"type": "text", "data": {"text": "💬💬💬fufu正在思考中..."}},
                     ],
                 )
                 response = await send_dify_request(user_id, raw_message)
