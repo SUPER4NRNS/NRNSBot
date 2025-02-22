@@ -12,12 +12,13 @@ from datetime import datetime
 from handler_events import handle_message
 
 from api import send_private_msg
-
+from app.scripts.eat.eat import run_schedule
 
 async def connect_to_bot():
     # 创建信号量，限制并发任务数量
     semaphore = asyncio.Semaphore(10)  # 限制最大并发数为10
     tasks = set()  # 用于存储所有任务的集合
+    #asyncio.create_task(run_schedule(websocket))
 
     async def process_message(websocket, message):
         async with semaphore:
@@ -51,6 +52,8 @@ async def connect_to_bot():
 
     logging.info("正在连接到机器人...")
     logging.info(f"连接地址: {ws_url}")
+   # asyncio.create_task(run_schedule(websocket))
+    #print(114514)
 
     # 如果 token 不为 None，则添加到请求头
     if token:
@@ -59,6 +62,8 @@ async def connect_to_bot():
         ) as websocket:
             current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             logging.info(f"已连接到机器人。当前时间: {current_time}")
+            asyncio.create_task(run_schedule(websocket))
+            print(114514)
             await send_private_msg(
                 websocket, owner_id[0], f"机器人已连接。当前时间: {current_time}"
             )
@@ -72,6 +77,8 @@ async def connect_to_bot():
         async with websockets.connect(ws_url) as websocket:
             current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             logging.info(f"已连接到机器人。当前时间: {current_time}")
+            asyncio.create_task(run_schedule(websocket))
+            print(114514)
             await send_private_msg(
                 websocket, owner_id[0], f"机器人已连接。当前时间: {current_time}"
             )
@@ -81,6 +88,9 @@ async def connect_to_bot():
                 # 创建新任务并添加到任务集合
                 task = asyncio.create_task(process_message(websocket, message))
                 tasks.add(task)
+
+    asyncio.create_task(run_schedule(websocket))
+    print(114514)
 
 
 if __name__ == "__main__":
