@@ -106,7 +106,7 @@ async def handle_group_message(websocket, msg):
                     {
                         "type": "text",
                         "data": {
-                            "text": f"{answer}\n\n{total_tokens} tokens\n{total_price} {currency}"
+                            "text": f"{answer}\n\n[+]fufu也可能会犯错，请核查重要信息\n[+]当前模型：DeepSeek-V3/R1\n[+]本次消耗：{total_tokens} tokens,耗费金额：{total_price} {currency}\n[+]体验机器人请移步146073608"
                         },
                     },
                 ]
