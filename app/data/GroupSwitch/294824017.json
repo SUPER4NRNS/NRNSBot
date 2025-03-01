@@ -4,5 +4,7 @@
     "违禁词监控": true,
     "打断复读": false,
     "邀请链记录": true,
-    "LLM": true
+    "LLM": true,
+    "欢迎": true,
+    "MuteWheel": true
 }

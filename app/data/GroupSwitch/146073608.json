@@ -6,5 +6,7 @@
     "欢迎欢送": true,
     "违禁词监控": true,
     "QFNU资产处监控": true,
-    "打断复读": false
+    "打断复读": false,
+    "MuteWheel": true,
+    "LLM": true
 }
