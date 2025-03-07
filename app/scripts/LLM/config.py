@@ -8,7 +8,7 @@ DEFAULT_MODEL = "deepseek"  # 在此修改默认模型
 # 模型配置中心
 MODEL_CONFIG = {
     "deepseek": {
-        "api_key": os.getenv("DEEPSEEK_KEY", ""),
+        "api_key": os.getenv("DEEPSEEK_KEY", "sk-"),
         "base_url": "https://api.siliconflow.cn/v1",
         "model_name": "deepseek-ai/DeepSeek-V3",
         "token_cost": 0.0001,  # 每token成本（单位：CNY）
