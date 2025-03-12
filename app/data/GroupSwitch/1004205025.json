@@ -2,5 +2,5 @@
     "打断复读": false,
     "知识库": true,
     "LLM": true,
-    "MuteWheel": true
+    "MuteWheel": false
 }
